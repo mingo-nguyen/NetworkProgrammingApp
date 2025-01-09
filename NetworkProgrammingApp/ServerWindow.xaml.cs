@@ -11,7 +11,7 @@ namespace NetworkProgrammingApp
     {
         private const int Port = 5000;
         private const int ClientPort = 5001;
-        private const int RestaurantPort = 5002; // Port for restaurant to listen for notifications
+        private const int RestaurantPort = 5002; 
         private ObservableCollection<Order> orders = new ObservableCollection<Order>();
 
         public ServerWindow()

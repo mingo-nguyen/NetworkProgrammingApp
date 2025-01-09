@@ -7,7 +7,7 @@ namespace NetworkProgrammingApp
 {
     public partial class RestaurantWindow : Window
     {
-        private const int RestaurantPort = 5002; // Port for restaurant to listen for notifications
+        private const int RestaurantPort = 5002;
 
         public RestaurantWindow()
         {
@@ -39,4 +39,3 @@ namespace NetworkProgrammingApp
         }
     }
 }
-

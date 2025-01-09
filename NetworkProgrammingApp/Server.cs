@@ -39,7 +39,6 @@ namespace NetworkProgrammingApp
             orders[orderId] = orderDetails;
             Console.WriteLine($"Received Order: {orderId} - {orderDetails}");
 
-            // Simulate server choosing an order to confirm
             Console.WriteLine("Enter Order ID to confirm:");
             string confirmOrderId = Console.ReadLine();
 

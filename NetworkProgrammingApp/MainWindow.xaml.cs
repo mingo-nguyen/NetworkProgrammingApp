@@ -7,9 +7,9 @@ namespace NetworkProgrammingApp
 {
     public partial class MainWindow : Window
     {
-        private const string ServerIp = "127.0.0.1"; // Change to your server IP
-        private const int ServerPort = 5000; // Change to your server port
-        private const int ClientPort = 5001; // Port for client to listen for confirmations
+        private const string ServerIp = "127.0.0.1";
+        private const int ServerPort = 5000;
+        private const int ClientPort = 5001;
         private const string PlaceholderFoodList = "Enter Food List";
         private const string PlaceholderAddress = "Enter Address";
         private int currentOrderId = 1;
@@ -95,7 +95,7 @@ namespace NetworkProgrammingApp
 
             client.Close();
         }
-
+        //Just for UI hehe
         private void FoodListTextBox_GotFocus(object sender, RoutedEventArgs e)
         {
             if (FoodListTextBox.Text == PlaceholderFoodList)
